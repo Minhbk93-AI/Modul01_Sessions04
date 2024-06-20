@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 4.9.3</title>
+    <link rel="stylesheet" href="./S4.9.3.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Select Card</h1>
+      <img src="./MasterCard.png" width="50px" />
+      <img src="./Paypal.png" width="50px" />
+      <img src="./Visa.png" width="50px" />
+      <img src="./Express.png" width="50px" />
+      <img src="Discover.png" width="50px" />
+      <form action="" method="get">
+        <div>
+          <label for="card number">Card number</label><br />
+          <br />
+          <input
+            class="card_number"
+            type="text"
+            name="card number"
+            id="card number"
+            value="  5884 6241 4444 3333"
+          />
+        </div>
+        <br />
+        <table>
+          <tr>
+            <td>
+              <label for="date_time">Expry Date</label><br /><br />
+              <input
+                class="date_time"
+                type="date"
+                name="date_time"
+                id="date_time"
+              />
+            </td>
+            <td>
+              <label for="CVC">CVC/CVV</label><br />
+              <br />
+
+              <input class="pass_word" type="password" name="CVC" id="CVC" />
+            </td>
+          </tr>
+        </table>
+
+        <br />
+
+        <input class="submit" type="submit" value="Save" />
+      </form>
+    </main>
+  </body>
+</html>

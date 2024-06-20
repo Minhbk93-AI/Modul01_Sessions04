@@ -1,0 +1,49 @@
+*{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card_number{
+    height: 50px;
+    width: 500px;
+}
+.date_time{
+    width: 200px;
+}
+
+
+.submit{
+   background-color: rgb(31, 106, 177);
+   width: 150px;
+   height: 50px;
+}
+table{
+    width: 500px;
+}
+td{
+    width: 100%;
+    
+}
+.date_time{
+    width: 240px;
+    height: 50px;
+}
+.pass_word{
+    width: 240px;
+    height: 50px;
+}
+
+
+body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}

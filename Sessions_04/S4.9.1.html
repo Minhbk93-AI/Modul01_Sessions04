@@ -1,0 +1,67 @@
+b<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 4.9</title>
+    <link rel="stylesheet" href="./S4.9.1.css" />
+  </head>
+  <body>
+    <header>
+      <table class="table">
+        <tr>
+          <td>
+            <h1 class="header">Hotel Search</h1>
+          </td>
+          <td class="button_td2">
+            <button>Home</button>
+            <button>About</button>
+            <button>Contact</button>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <main>
+      <br />
+      <div>
+        <h3 class="h3">Find the perfect Hotel for You</h3>
+      </div>
+      <br />
+      <section>
+        <div>
+          <label for="desciptions">Desciptions:</label><br />
+
+          <input
+            type="text"
+            name="desciptions"
+            id="desciptions"
+            placeholder="Enter text here"
+          />
+        </div>
+        <div>
+          <label for="checkin">Checkin:</label><br />
+          <input type="datetime-local" name="checkin" id="checkin" />
+        </div>
+
+        <div>
+          <label for="checkout">Checkout:</label><br />
+          <input type="datetime-local" name="checkout" id="checkout" /><br />
+        </div>
+
+        <div>
+          <label for="guest">Guest:</label><br />
+          <select class="select" name="guest" id="guest">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
+        </div>
+
+        <br />
+        <button>Search</button>
+      </section>
+    </main>
+    <br />
+    <footer>&#169;2023 Hotel Search.All rights reserved</footer>
+  </body>
+</html>
