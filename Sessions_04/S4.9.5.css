@@ -1,0 +1,30 @@
+*{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    width: 500px;
+    border: 0px;
+    border-collapse: collapse;
+}
+td{
+    height: 50px;
+}
+.td2{
+    text-align: right;
+}
+body{
+    background-color: bisque;
+    padding: 30px 30px 30px 30px;
+}
+main{
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    
+}
+.Total{
+    background-color: blue;
+}

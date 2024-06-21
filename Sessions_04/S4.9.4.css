@@ -1,0 +1,102 @@
+*{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(241, 238, 238);
+    border: none;
+    width: 80px;
+    height: 40px;
+}
+.button_about{
+    width: 200px;
+}
+.my_reward{
+    color: azure;
+}
+.summary{
+    height: 20px;
+
+}
+.button_about{
+    height: 20px;
+}
+div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input{
+    width: 400px;
+}
+footer{
+    font-size: 8px;
+}
+.td1{
+    text-align: left;
+}
+.price{
+    width: 80px;
+    height: 60px;
+    margin-left: 50px;
+    background-color: white;
+}
+.text_p{
+    font-size: 12px;
+}
+
+
+.Total{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 100px;
+    height: 80px;
+}
+.Accument{
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+   margin-right: 100px;
+    width: 100px;
+    height: 80px;
+}
+.Panding{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    height: 80px;
+}
+form{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+    background-color: white;
+    margin-bottom: 25px;
+   
+    
+}
+table{
+    margin: auto;
+    background-color: #faf8f8;
+}
+h1{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+body{
+    padding: 20px 20px 20px 20px;
+}
+main{
+    background-color: #f1ebeb;
+    height: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
